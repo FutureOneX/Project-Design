@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/Roboto-Regular.ttf);
+}
+body{
+    font-family: "Roboto";
+}
+/*HEADER*/
+
+header{
+    background-image: url(../img/ilustracion_people.png),url(../img/ilustracion1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+header div{
+    padding-left: 91px;
+}
+header div h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+header div p{
+    font-size: 12px;
+    line-height: 14.4px;
+}
+header section{
+    margin-top: 365px;
+    margin-left: 144px;
+}
+header section h1{
+    font-size: 54px;
+    line-height: 64.8px;
+    font-weight: 600;
+    width: 450px;
+}
+header section p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+}
+header section p:nth-of-type(1){
+    margin-top:19.8px;
+    margin-bottom: 11px;
+}
+/*MAIN*/
+
+.st-section p{ 
+    color: #ff3571;
+    font-size: 14px;
+    margin-left: 144px;
+    margin-bottom: 130px;
+}
+.st-section img{
+    max-width: 100%;
+}
+.nd-section h2{
+    font-size: 46px;
+    width: 320px;
+}
+.nd-section p{
+    display: flex;
+    justify-content: space-around;
+}
